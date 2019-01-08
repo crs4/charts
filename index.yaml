@@ -3,7 +3,7 @@ entries:
   hadoop:
   - apiVersion: v1
     appVersion: 2.9.0
-    created: 2019-01-08T15:29:47.743406727+01:00
+    created: 2019-01-08T15:36:33.230365287+01:00
     description: The Apache Hadoop software library is a framework that allows for
       the distributed processing of large data sets across clusters of computers using
       simple programming models.
@@ -19,4 +19,4 @@ entries:
     urls:
     - https://crs4.github.io/charts/hadoop-1.1.0.tgz
     version: 1.1.0
-generated: 2019-01-08T15:29:47.742720404+01:00
+generated: 2019-01-08T15:36:33.229736471+01:00
