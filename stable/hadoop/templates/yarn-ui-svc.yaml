@@ -1,3 +1,4 @@
+{{- if .Values.yarn.enabled }}
 # Service to access the yarn web ui
 apiVersion: v1
 kind: Service
@@ -15,3 +16,4 @@ spec:
   selector:
     app: {{ include "hadoop.name" . }}
     component: yarn-rm
+{{- end }}

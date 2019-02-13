@@ -1,3 +1,4 @@
+{{- if .Values.yarn.enabled }}
 # A headless service to create DNS records
 apiVersion: v1
 kind: Service
@@ -17,3 +18,4 @@ spec:
     app: {{ include "hadoop.name" . }}
     release: {{ .Release.Name }}
     component: yarn-rm
+{{- end }}

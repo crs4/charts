@@ -37,6 +37,7 @@ hdfs:
         cpu: "1000m"
 
 yarn:
+  enabled: true
   resourceManager:
     pdbMinAvailable: 1
 
